@@ -1,0 +1,73 @@
+.voucher-checker {
+    width: 230px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+input {
+    font-size: 18px;
+    font-weight: 600;
+    width: 160px;
+    color: orange;
+
+}
+
+.btn-check-voucher {
+    width: 60px;
+    height: 26px;
+    border: none;
+    background-color: #58D68D;
+    color: white;
+    font-size: 18px;
+}
+
+.voucher .shop-name {
+    width: 200px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.voucher .code {
+    width: 100px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-style: italic;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.voucher .image {
+    margin: 10px 40px;
+    width: 200px;
+    height: 120px;
+    background-color: #58D68D;
+}
+
+.voucher .description {
+    width: 180px;
+    height: 80px;
+    margin: 10px 50px;
+    border: 1px solid black;
+}
+
+.voucher .cover-btn-apply {
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.voucher .btn-apply {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #0FFF50;
+    color: white;
+    font-size: 18px;
+}

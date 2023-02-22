@@ -1,0 +1,30 @@
+
+/* FOOTER  */
+.footer {
+    height: 60px;
+    background: var(--color_footer);
+    width: 100%;
+    bottom: 0px;
+    padding: 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    display: flex;
+}
+
+.footer-content {
+    padding: 0px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+footer div img {
+    max-height: 70px;
+}
+
+@media (min-width:0px) and (max-width:950px) {
+    footer div {
+        padding: 0px 10px;
+    }
+}
+/* END FOOTER */

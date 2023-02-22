@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Voucher";
+}
+<link rel="stylesheet" href="~/css/CheckVoucher.css" />
+<script src="~/js/CheckVoucher.js"></script>
+
+
+<div class="w340 f-s24 mg0a mg-t20"><b>THPT Dầu Tiếng Confessions</b></div>
+
+@*<div class="holder">
+    <div class="voucher-checker">
+            <label for="voucher-code">Điền voucher vào đây!!!</label>
+            <input id="voucher-code" class="voucher-code" name="VoucherCode" type="text" placeholder="AWX1234">
+            <button class="btn btn-check-voucher">>>Go</button>
+    </div>
+</div>*@
+
+@*<div class="holder">
+    <div id="voucher" class="voucher w280 h380 mg0a bd-r20"></div>
+</div>*@
+
+@{
+    if (ViewBag.Message != null)
+    {
+        if (ViewBag.Message == "")
+        {
+            <br>
+            <div class="w_pc100">
+                <div id="voucher" class="w280 h400 mg0a bg-c_white bd-r20">
+                    <div id="SName" class="pd-t8 pd-b8 t-a_c f-s24">@ViewBag.ShopName</div>
+                    <div id="VCode" class="t-a_c">@ViewBag.VoucherCode</div>
+                    <div id="div-image" class="w180 h100 mg0a mg-t10 mg-b10 bd1"><img src="#" alt="Hình ảnh goes here"></div>
+                    <div id="description" class="w200 h140 bd1 mg0a mg-b10">@ViewBag.Description</div>
+                    <div class="mg0a w180">
+                        <button class="btn w180 h35 bd0 bd-r18 f-s20 white bg-c_green">Dùng voucher</button>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <br />
+            <div class="w190 h35 mg0a red">@ViewBag.Message</div>
+        }
+    }
+}
+
+
+

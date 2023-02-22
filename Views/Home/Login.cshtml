@@ -1,0 +1,23 @@
+﻿<div class="holder">
+    <div class="container w300 h280 bd-r20 p10 mg0a mg-t30">
+        <form action="/Home/CheckLogin" method="post" class="form-login">
+            <div class="f-s24 mg-b15"><b>Đăng nhập</b></div>
+            <!-- <label for="username" class="form-label">Tài khoản</label><br> -->
+            <input name="Username" type="text" id="username" class="form-input w220 l-h40 mg-t3 bd0 bd-r5 f-s18" placeholder="Tài khoản">
+            <p class="red f-s12 mg-t4">@ViewBag.Message1</p>
+
+            <div class="h5"></div>
+
+            <!-- <label for="password" class="form-label">Mật khẩu</label><br> -->
+            <input name="Password" type="password" id="password" class="form-input w220 l-h40 mg-t3 bd0 bd-r5 f-s18" placeholder="Mật khẩu">
+            <p class="red f-s12 mg-t4">@ViewBag.Message2</p>
+            <div class="h5"></div>
+
+            <div class="w160 mg0a mg-t5 t-a_c">
+                <input type="submit" value="Đăng nhập" class="btn w160 h35 bd0 bd-r20 f-s18">
+                <div class="h10"></div>
+                <a href="/Home/ForgotPassword" class="t-d_no f-s14">Quên mật khẩu</a>
+            </div>
+        </form>
+    </div>
+</div>
